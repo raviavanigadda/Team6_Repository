@@ -35,6 +35,6 @@ public void getLocation()
 }
 public void display()
 {
-    
+    System.out.println();
 }
 }
