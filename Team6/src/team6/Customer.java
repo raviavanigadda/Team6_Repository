@@ -24,9 +24,9 @@ public void setName(String name)
     
 }
 
-public void getName()
+public String getName()
 {
-    
+ return this.name;   
 }
 
 public void setLocation(String location)
@@ -34,9 +34,9 @@ public void setLocation(String location)
     
 }
 
-public void getLocation()
+public String getLocation()
 {
-    
+   return this.location;  
 }
 
 public void sendOrder()
