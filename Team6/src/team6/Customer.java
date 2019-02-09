@@ -18,32 +18,40 @@ public Customer(String name, String location)
  this.name=name;
  this.location=location;
 }
+
 public void setName(String name)
 {
     
 }
+
 public void getName()
 {
     
 }
+
 public void setLocation(String location)
 {
     
 }
+
 public void getLocation()
 {
     
 }
+
 public void sendOrder()
 {
     
 }
+
 public void receiveOrder()
 {
     
 }
+
 public void display()
 {
     System.out.println();
 }
+
 }
