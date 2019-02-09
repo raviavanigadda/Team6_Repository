@@ -22,7 +22,26 @@ public class Order {
         this.number = number;
     }
     
-       
+    public void setDate(Date d)
+    {
+           date = d; 
+    }
+           
+    public void setNumber(String n)
+    {
+            number = n;
+    }
+    
+    public String getNumber()
+    {
+            return number;
+    }
+    
+    public Date getDate()
+    {
+            return date;
+    }
+    
     public void confirm()
     {
     
