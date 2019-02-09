@@ -5,6 +5,8 @@
  */
 package team6;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -13,13 +15,13 @@ import java.util.Date;
  */
 
 public class Order {
-    public Date date;
-    public String number;
-    
-    public Order(Date date, String number)
+  
+   Date date = parseDate("2019-02-09");
+   public String number;
+       
+    public Order(String number)
     {
-        this.date = date;
-        this.number = number;
+       this.number = number;
     }
     
     public void setDate(Date d)
@@ -44,7 +46,7 @@ public class Order {
     
     public void confirm()
     {
-    
+        System.out.println("Date is: "+date+"\nOrder number: "+number);
     }
     
     public void close()
@@ -52,5 +54,11 @@ public class Order {
             System.exit(0);
     }
 
-   
+   public static Date parseDate(String date) {
+     try {
+         return new SimpleDateFormat("yyyy-MM-dd").parse(date);
+     } catch (ParseException e) {
+         return null;
+     }
+  }
 }

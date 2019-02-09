@@ -16,7 +16,7 @@ public class NormalOrder extends Order{
  
     public NormalOrder(Date date, String number) {
         
-        super(date, number);
+        super(number);
     }
     
     public void dispatch(){

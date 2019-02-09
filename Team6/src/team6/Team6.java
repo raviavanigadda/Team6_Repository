@@ -15,8 +15,9 @@ public class Team6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
         
+       Order o = new Order("9955123");
+       o.confirm();
     }
     
 }
