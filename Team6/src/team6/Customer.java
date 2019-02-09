@@ -15,7 +15,8 @@ public class Customer
     
 public Customer(String name, String location)
 {
- 
+ this.name=name;
+ this.location=location;
 }
 public void setName(String name)
 {
