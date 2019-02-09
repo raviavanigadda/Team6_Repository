@@ -34,6 +34,14 @@ public void getLocation()
 {
     
 }
+public void sendOrder()
+{
+    
+}
+public void receiveOrder()
+{
+    
+}
 public void display()
 {
     System.out.println();
