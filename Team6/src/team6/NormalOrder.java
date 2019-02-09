@@ -11,23 +11,13 @@ import java.util.*;
  *
  * @author 1895126
  */
-public class NormalOrder {
+public class NormalOrder extends Order{
     
     public Date date;
     public String number;
-    
-    public NormalOrder(Date date,String number){
+    public NormalOrder(Date date, String number) {
         
-        this.date=date;
-        this.number=number;
-    }
-    
-    public void confirm(){
-        
-    }
-    
-    public void close(){
-        
+        super(date, number);
     }
     
     public void dispatch(){
